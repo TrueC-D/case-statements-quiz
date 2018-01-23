@@ -61,19 +61,24 @@ case name
     puts "You have all the power!"
   end
 ```
-(X)
+( )
 ```ruby
 grade = 95
 
 case grade
-  when 90..100 then "A" 
-  when 80..90 then "B"
-  when 70..80 then "C"
-  when 60..70 then "D"
-  when 0..60 then "F"
+  when 90..100
+    "A" 
+  when 80..90
+    "B"
+  when 70..80
+    "C"
+  when 60..70
+    "D"
+  when 0..60
+    "F"
 end
 ```
-( ) Neither are good as case statements
+(X) Both are good as case statements
 
 ?: Which operator does a case statement use to compare the value to the conditions?
 
