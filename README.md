@@ -66,11 +66,16 @@ case name
 grade = 95
 
 case grade
-  when 90..100 then "A" 
-  when 80..90 then "B"
-  when 70..80 then "C"
-  when 60..70 then "D"
-  when 0..60 then "F"
+  when 90..100
+    "A" 
+  when 80..90
+    "B"
+  when 70..80
+    "C"
+  when 60..70
+    "D"
+  when 0..60
+    "F"
 end
 ```
 (X) Both are good as case statements
