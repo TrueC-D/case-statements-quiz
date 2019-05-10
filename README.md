@@ -59,7 +59,7 @@ case name
     puts "Welcome back, #{name}"
   when "Admin"
     puts "You have all the power!"
-  end
+end
 ```
 ( )
 ```ruby
